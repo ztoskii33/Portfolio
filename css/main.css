@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body{
+  background-color: black;
+  margin: 0px auto;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+
+p{
+  color: white;
+}
+
+
+
+/* NAVBAR */
+
+
+header{
+  background-color: rgba(28, 25, 25, 0.734);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 15px 0px;
+  height: 60px;   
+}
+
+
+.port{  
+  color: white;
+  border: 3px solid yellow;
+  padding: 2px;
+  margin-left: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  
+  
+}
+
+.my{
+  color: red;
+}
+
+
+ol a{
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #a71b1b;
+}
+
+
+/* SECTION 1 */
+
+
+.tosan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  height: 40rem;
+  background-image: url("../images/pexal.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:50px;
+  background-size: cover;
+}
+
+.toskii{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 450px 300px 0px;
+}
+
+
+.toskii h1{
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid black; */
+  font-size: 30px;
+  color: rgb(30, 23, 23);
+
+}
+
+.toskii .ii{
+  color: red;
+}
+
+.toskii p{
+  font-size: 30px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+
+.toskii .social{
+  padding-left: 1px;
+}
+
+.social img{
+  width: 25px;
+  background-color: rgb(4, 17, 83);
+  cursor: pointer;
+  margin-left: 10px;
+
+  
+
+}
+
+
+.sub{
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: red;
+  padding: 5px 10px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+/* SECTION 2 */
+
+.photo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo img{
+  height: 500px;
+  border: 2px solid yellowgreen;
+}
+
+.photo h2{
+  font-size: 40px;
+  color: white;
+  margin-top: 200px;
+}
+
+.photo .grap{
+  text-align: center;
+  width: 600px;
+}
+
+
+
+/* SECTION 3 */
+
+.back h3{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+.join p{
+  text-align: center;
+}
+
+
+.feed{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  
+}
+
+.name{
+  background-color: rgb(100, 25, 25);
+  padding: 50px 0px 120px 50px;
+  width: 600px;
+  margin-left: 100px;
+  
+}
+
+.name label p{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.name input{
+  width: 300px;
+  height: 30px;
+}
+
+.name textarea{
+  width: 300px;
+  height: 150px;
+}
+
+.mit{
+  background-color: yellow;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 7px;
+  margin-top: 20px;
+}
+
+.world{
+  text-align: center;
+  margin-top: 90px;
+  width: 500px;
+}
+
+.world form input{
+  height: 30px;
+  width: 200px;
+}
+
+.world button{
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.world aside{
+  margin-top: 50px;
+}
+
+
+
+
+
+
+/* ABOUT PAGE */
+/* SECTION 1 */
+
+.lery{
+  margin-top: 50px;
+}
+
+.lery h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.lery p{
+  text-align: center;
+  width: 650px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.pic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.pic img{
+  margin: 30px;
+}
+
+
+
+
+
+  
+  
